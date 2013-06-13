@@ -1,0 +1,9 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"10-15022013-108935";"";
+"TraceParts.ClassPath";"EMILE_MAURIN_BV:/ROOT/C21/C21.060/C21.060.010/C21.060.010.T01/10-15022013-108935";"";
+"TraceParts.InstanceId";"10-15022013-1089355UJ5UBLCTD84VW69UE56KIJJI";"";
+"REFERENCE";"20010G5A 10X130";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"SUPPLIER";"Emile Maurin";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartVersion";"1.0.0";"";
