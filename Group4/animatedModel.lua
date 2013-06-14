@@ -123,18 +123,18 @@ Actions.addFrameAction(function()		--reposition moving pieces accordingly
 		end
 		
 --------------------------------------------------------------------------------------------------------------------------------------------------
-		xform[4]:setPosition(osg.Vec3d(shiftTopPinx, shiftTopPiny, 0))  --top pin good
-		xform[5]:setPosition(osg.Vec3d(shiftBottomPinx, shiftBottomPiny, 0))  --bot pin good
+		xform[4]:setPosition(osg.Vec3d(shiftTopPinx, shiftTopPiny, 0))
+		xform[5]:setPosition(osg.Vec3d(shiftBottomPinx, shiftBottomPiny, 0))
 		--Links
 		xform[8]:setAttitude(osg.Quat(linkAngle,osg.Vec3d(0,0,1)))
 		xform[9]:setAttitude(osg.Quat(linkAngle,osg.Vec3d(0,0,1)))
 		xform[8]:setPosition(osg.Vec3d(shiftTopPinx + shiftLinkx, shiftTopPiny + shiftLinky, 0))
 		xform[9]:setPosition(osg.Vec3d(shiftTopPinx + shiftLinkx, shiftTopPiny + shiftLinky, 0))
 		--Lever
-		xform[10]:setAttitude(osg.Quat(leverAngle,osg.Vec3d(0,0,1)))  --lever good
+		xform[10]:setAttitude(osg.Quat(leverAngle,osg.Vec3d(0,0,1)))
 		xform[10]:setPosition(osg.Vec3d(shiftLeverx, shiftLevery, 0))
 		--Pusher
-		xform[11]:setAttitude(osg.Quat(pusherAngle,osg.Vec3d(0,0,1)))  --pusher bad
+		xform[11]:setAttitude(osg.Quat(pusherAngle,osg.Vec3d(0,0,1)))
 		xform[11]:setPosition(osg.Vec3d(shiftPusherx, shiftPushery,0))
 		
 		Actions.waitForRedraw()
